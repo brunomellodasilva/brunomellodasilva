@@ -4,7 +4,7 @@
 
 ## Sobre mim
 
-Atuo em operações de NOC na Padtec S/A / COPE Fibrasil, lidando diariamente com monitoramento de rede, gestão de incidentes e rotinas operacionais que dependem de múltiplos sistemas internos. A partir dessa rotina, desenvolvo ferramentas e automações em Python que eliminam tarefas manuais repetitivas — de geração e envio de relatórios a apoio à comunicação em situações críticas.
+Atuo em operações de NOC na Padtec S/A / COPE Fibrasil, lidando diariamente com monitoramento de rede, gestão de incidentes e rotinas operacionais que dependem de múltiplos sistemas internos. A partir dessa rotina, desenvolvo ferramentas e automações que eliminam tarefas manuais repetitivas — de geração e envio de relatórios a apoio à comunicação em situações críticas e painéis de acompanhamento operacional.
 
 Meu foco não é só escrever código: é entender o processo por trás da tarefa, identificar onde o trabalho manual introduz risco ou atraso, e desenhar uma solução confiável para resolver isso.
 
@@ -14,6 +14,8 @@ Também curso Administração (UNIASSELVI), o que reforça a leitura de processo
 
 **Linguagens**
 - Python
+- JavaScript
+- React
 
 **Automação**
 - pywin32 (automação COM do Microsoft Outlook)
@@ -53,6 +55,18 @@ Também curso Administração (UNIASSELVI), o que reforça a leitura de processo
 **Solução:** ferramenta que lê os dados exportados do sistema de gestão de alarmes (arquivo ou print de tela) e gera automaticamente a mensagem padronizada, pronta para envio ao grupo de Telegram responsável.
 
 **Resultado:** padroniza a comunicação de abertura de Sala de Crise e reduz o tempo entre identificação da ocorrência e o aviso à equipe. *[A preencher: métricas, se houver.]*
+
+---
+
+### 📊 Dashboard de Cobrança de TTKs/Parciais
+**Tipo:** Painel web · automação de cobrança e visibilidade operacional
+📁 [`dashboard-cobranca-ttk-parciais`](https://github.com/brunomellodasilva/dashboard-cobranca-ttk-parciais)
+
+**Problema:** conferir manualmente, entre dezenas de chamados, quais equipes de campo estouraram o prazo prometido de retorno — e montar a mensagem de cobrança para cada uma — consome tempo do NOC várias vezes ao dia, sem visibilidade consolidada do volume cobrado.
+
+**Solução:** painel web em React que importa a planilha de acompanhamento, aplica a regra de prazo, agrupa os chamados por equipe responsável e gera a mensagem de cobrança pronta para o Telegram, além de um dashboard de volumetria com KPIs do dia.
+
+**Resultado:** reduz o tempo gasto para identificar e cobrar chamados parados, com visibilidade do volume de cobranças ao longo do turno. *[A preencher: frequência de uso, tempo economizado por ciclo, se houver esse dado.]*
 
 ---
 
