@@ -88,6 +88,4 @@ Também curso Administração (UNIASSELVI), o que reforça a leitura de processo
 ---
 
 <div align="center">
-<sub>💡 Automatizando processos operacionais, um script por vez.</sub>sub>
-</div>div>
-</sub>
+<sub>💡 Automatizando processos operacionais, um script por vez.
