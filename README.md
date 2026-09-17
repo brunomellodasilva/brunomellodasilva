@@ -46,7 +46,7 @@ Também curso Administração (UNIASSELVI), o que reforça a leitura de processo
 
 **Solução:** script Python que localiza o relatório mais recente, monta o e-mail a partir de um template já configurado no Outlook e envia automaticamente — disponível como atalho de duplo clique para uso imediato pela equipe.
 
-**Resultado:** elimina a montagem manual do e-mail diário. *[A preencher: tempo médio economizado, se houver esse dado.]*
+**Resultado:** elimina a montagem manual do e-mail diário. 
 
 ---
 
@@ -59,7 +59,7 @@ Também curso Administração (UNIASSELVI), o que reforça a leitura de processo
 
 **Solução:** ferramenta que lê os dados exportados do sistema de gestão de alarmes (arquivo ou print de tela) e gera automaticamente a mensagem padronizada, pronta para envio ao grupo de Telegram responsável.
 
-**Resultado:** padroniza a comunicação de abertura de Sala de Crise e reduz o tempo entre identificação da ocorrência e o aviso à equipe. *[A preencher: métricas, se houver.]*
+**Resultado:** padroniza a comunicação de abertura de Sala de Crise e reduz o tempo entre identificação da ocorrência e o aviso à equipe.
 
 ---
 
@@ -72,7 +72,7 @@ Também curso Administração (UNIASSELVI), o que reforça a leitura de processo
 
 **Solução:** painel web em React que importa a planilha de acompanhamento, aplica a regra de prazo, agrupa os chamados por equipe responsável e gera a mensagem de cobrança pronta para o Telegram, além de um dashboard de volumetria com KPIs do dia.
 
-**Resultado:** reduz o tempo gasto para identificar e cobrar chamados parados, com visibilidade do volume de cobranças ao longo do turno. *[A preencher: frequência de uso, tempo economizado por ciclo, se houver esse dado.]*
+**Resultado:** reduz o tempo gasto para identificar e cobrar chamados parados, com visibilidade do volume de cobranças ao longo do turno. 
 
 ---
 
